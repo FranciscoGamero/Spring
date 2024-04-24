@@ -27,7 +27,7 @@ public class ProductoControlador {
 		 * Añadimos al model la lista de productos que viene del servicio, devuelta por el método
 		 * getLista
 		 * */
-		model.addAttribute("listaProducto", servicio.ObtenerLista());
+		model.addAttribute("listaProducto", servicio.getLista());
 		return "PlantillaBucleYFormateo";//Se devuelve el nombre de la plantilla html sin la extensión
 	}
 }

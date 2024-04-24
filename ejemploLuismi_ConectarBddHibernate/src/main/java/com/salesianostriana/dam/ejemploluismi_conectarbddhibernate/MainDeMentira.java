@@ -18,5 +18,9 @@ public class MainDeMentira {
 	@PostConstruct //Esto se ejecuta al arrancar el proyecto
 	void ejecutar() {
 		repositorio.save(new Alumno("Luis Miguel", "López Magaña", "luismi.lopez@triana.salesianos.edu"));
+		
+		//repositorio.findAll().forEach(a -> System.out.println(a));
+		
+		repositorio.findAll().forEach(System.out::println);
 	}
 }
