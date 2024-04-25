@@ -11,13 +11,19 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+
+//SIEMPRE PONER @NoArgsConstructor @AllArgsConstructor y @Builder, ASIQUE NO CREAMOS NUEVOS CONSTRUCTORES
 
 @Entity
 @NoArgsConstructor @AllArgsConstructor
 @Data
 @Table(name ="alumnado")
+@Builder
+
 public class Alumno {
 
     @Id @GeneratedValue //Esto hace que se genere solo en la BDD
@@ -34,6 +40,9 @@ public class Alumno {
     @JoinColumn(foreignKey = @ForeignKey(name="fk_alumno_curso"))
     private Curso curso;
 
+    /*
+     Como usamos Builder no hace falta tener mas constructores
+     
     public Alumno(String nombre, String apellidos, String email, Curso curso) {
         super();
         this.nombre = nombre;
@@ -48,6 +57,8 @@ public class Alumno {
         this.apellidos = apellidos;
         this.email = email;
     }
+    
+    */
     //Añadirlo en el lado que no esta mapeado
     
     //Metodo auxiliares 

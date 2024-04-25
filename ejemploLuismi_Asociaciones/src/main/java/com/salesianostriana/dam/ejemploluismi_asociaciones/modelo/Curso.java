@@ -25,6 +25,8 @@ public class Curso {
 	    private Long id;
 	    
 	    private String nombre;
+	    
+	    private String tutor;
 	    /*
 	    @OneToMany Solución una a muchos, donde se pone una lista del uno (alumno) en el muchos (curso)
 	    private List<Alumno> alumnos = new ArrayList<>();
@@ -35,10 +37,12 @@ public class Curso {
 	    @OneToMany(mappedBy="curso", fetch = FetchType.EAGER)
 	    @EqualsAndHashCode.Exclude
 	    @ToString.Exclude
+	    @Builder.Default //Esto hace que fuerce a que este atributo a estar instanciado como se indica aqui
 	    private List<Alumno> alumnos = new ArrayList<>();
-	    
+	    /*
 	    public Curso(String nombre) {
 	        super();
 	        this.nombre = nombre;
 	    }
+	    */
 }

@@ -26,11 +26,24 @@ public class MainDeMentira {
         repo.save(new Alumno("Fran", "Gamero", "frangamero@gmail.com"));
         repo.findAll().forEach(System.out::println);;*/
         
-        Curso c  = new Curso("1º DAM");
+    	
+        Curso c  = Curso.builder()
+        		.tutor("Miguel")
+        		.nombre("1ºDAM")
+        		.build();
+        		
         cursoRepo.save(c);
         
-        Alumno a = new Alumno("Candi", "Alcantarilla", "candicalado@gmail.com");
+       // Alumno a = new Alumno("Candi", "Alcantarilla", "candicalado@gmail.com");
+        Alumno a = Alumno.builder()
+        		.nombre("Candi")
+        		.apellidos("Alcantarilla")
+        		.email("candicalado@gmail.com")
+        		.build();
+        Alumno a2 = Alumno.builder()
+        		.nombre("Pepe").apellidos("Perez").build();
         repo.save(a);
+        repo.save(a2);
         
         a.addtoCurso(c);
         
