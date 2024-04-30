@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Datos del producto</title>
+</head>
+
+<body>
+
+	<!-- 
+	No se muestra el id porque, en este caso, no estamos 
+	trabajando con los id de los productos 
+ 	-->
+	
+	
+	<h2>Información enviada del producto</h2>
+	<table>
+
+		<tr>
+			<td>Nombre:</td>
+			<td th:text="${producto.name}"></td>
+		</tr>
+		<tr>
+			<td>Descripción:</td>
+			<td th:text="${producto.description}"></td>
+		</tr>
+		<tr>
+			<td>Precio:</td>
+			<td th:text="${#numbers.formatDecimal(producto.price, 1, 2)}"></td>
+		</tr>
+		<tr>
+			<td>Tipo:</td>
+			<td th:text="${producto.tipo}">Tipo</td>
+		</tr>
+		
+		<!--
+			Aunque hemos definido la fecha en la clase pojo con un formato concreto, podemos ver
+			que se imprime en formato "local", es decir, en fomato España, ya que el método format
+			de #temporals le da ese foamto si no se le pone nada más, si solo se le pasa la fecha, 
+			la formatea al fomato local que tenga el navegador.
+		-->
+		<tr>
+			<td>Fecha de caducidad:</td>
+			<td th:text="${#temporals.format(producto.FCaducidad)}">Caducidad</td>
+
+		</tr>
+	</table>
+
+</body>
+
+</html>
