@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Formulario parte 2</title>
+</head>
+
+<body>
+
+	<h3>Bienvenido, introduzca los datos del producto</h3>
+
+	<!--
+		Como se ha visto en el anterior ejemplo de formularios, debemos definir la etiqueta form, y dentro: 
+		
+		th:action="ruta del controlador que atiende sin la barra"
+		th:object="nombre dado en el @ModelAttribute" del controller
+		Dentro del form, se pueden acceder a los atributos del objeto usando *.
+		Dentro los campos que necesitamos, más adelante, iremos viendo más tipos de campos, 
+		por ejemplo, select.
+		Puedes intentar poner más, como check...
+	-->
+	<form method="post" th:action="addProducto" th:object="${productoForm}">
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="Name">Nombre</label>
+			<div class="col-md-4">
+				<input id="Name" name="Name" placeholder="Nombre del producto" class="form-control input-md" type="text"
+					th:field="*{name}" /> <span class="help-block">help</span>
+			</div>
+		</div>
+
+		<!-- Textarea -->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="textarea">Descripción</label>
+			<div class="col-md-4">
+				<textarea class="form-control" id="textarea" name="textarea"
+					th:field="*{description}">default text</textarea>
+			</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">Precio</label>
+			<div class="col-md-4">
+				<input id="textinput" name="textinput" placeholder="Con dos decimales" class="form-control input-md"
+					type="text" th:field="*{price}" /> <span class="help-block">help</span>
+			</div>
+
+		</div>
+
+		<!-- Multiple Radios 
+
+		En los radios, Thymeleaf va asignando automáticamente un id a cada button para tenerlos
+		localizados en todo momento.
+		
+		Primero: debemos usar listado de "radios", aunque solo sean dos y el type del 
+		input será "radio". 		
+		th:field, tipo es el nombre del atributo de nuestro producto.
+		
+		Segundo: Un bucle para recorrer los "tipos de cerveza que habrá, por lo tanto necesitamos
+		una lista de tipos de cerveza. 
+		En este caso, se ha simulado mediante un servicio que nos devuelve la lista de tipos
+		
+		Tercero: Hay que añadir esa lista al model en el controlador
+		
+		Cuarto: El value, lo que se manda desde el formulario,
+		es del tipo del que hemos creado la lista de tipos de cerveza, en este caso, un array de String.
+		
+		-->
+
+		<ul>
+			<li th:each="tipoProducto : ${tipos}">
+				<input type="radio" th:field="*{tipo}" th:value="${tipoProducto}" />
+
+				<!-- 
+				
+				Esto que sigue, utiliza las expresiones de utilidad de th,
+				en este caso, #ids y el método prev que nos da el id del elemento previo pintado, porque estamos 
+				pintando el radio antes que el label. 
+				Si fuese al revés, pintar antes el label que el radio, usaríamos el método next que también existe. 
+				Para ese radio, pintamos la etiqueta que sea con el nombre guardado en el array de tipos normalmente.
+				
+				En resumen, sirve para que al pinchar en el label, también se marque el radio previo
+				-->
+
+				<label th:for="${#ids.prev('tipo')}" th:text="${tipoProducto}">Tipo de producto</label>
+			</li>
+		</ul>
+
+		<!--
+			Ya hemos visto algo de fechas en ejemplos anteriores, tratamiento sencillo de fechas y se verá con más profundidad 
+			más adelante, de momento, lo único que lleva th es el field y el value
+		-->
+
+		<div>
+
+			<input type="date" id="FCaducidad" name="fCadu" th:field="*{FCaducidad}" th:value="*{FCaducidad}" />
+
+		</div>
+
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+
+</html>

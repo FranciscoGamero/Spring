@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.134+C:\Users\sevil\Desktop\Grado\Programación\Spring\.metadata\.plugins\org.eclipse.jdt.core
 270151919.index
 795217318.index
@@ -145,3 +146,21 @@ INDEX VERSION 1.134+C:\Users\sevil\Desktop\Grado\Programación\Spring\.metadata\.
 2705501433.index
 1494170125.index
 273648926.index
+=======
+INDEX VERSION 1.134+C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\.metadata\.plugins\org.eclipse.jdt.core
+2744674046.index
+2208815305.index
+3515130597.index
+407047524.index
+4213203907.index
+3529580646.index
+368126436.index
+3793391854.index
+1674570546.index
+381859575.index
+2866384848.index
+1865797976.index
+941716274.index
+3427474459.index
+2712973219.index
+>>>>>>> 9784cbb81e55653fe09bf5514d710f751e56649f
