@@ -3586,3 +3586,6 @@
 2024-05-02 10:55:47,107 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-05-02 10:55:47,107 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-05-02 10:55:47,110 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
+2024-05-02 11:31:31,616 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 11:31:31,617 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 11:31:31,620 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
