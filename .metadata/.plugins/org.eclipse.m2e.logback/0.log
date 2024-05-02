@@ -3414,3 +3414,175 @@
 2024-04-30 14:25:49,461 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-30 14:25:49,462 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-30 14:25:49,466 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_AsociacionesManyToMany2\src\test\resources
+2024-05-02 10:10:27,603 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-02 10:16:11,031 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaJoined:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaJoined\pom.xml.
+2024-05-02 10:16:12,172 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaMappedSuperclass:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaMappedSuperclass\pom.xml.
+2024-05-02 10:16:12,319 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaSingleTable:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaSingleTable\pom.xml.
+2024-05-02 10:16:13,768 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaJoined/src/main/java
+2024-05-02 10:16:13,770 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaJoined/src/main/resources
+2024-05-02 10:16:13,780 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaJoined/src/main/resources
+2024-05-02 10:16:13,787 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaJoined/src/test/java
+2024-05-02 10:16:13,789 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaJoined/src/test/resources
+2024-05-02 10:16:14,544 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaMappedSuperclass/src/main/java
+2024-05-02 10:16:14,544 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/main/resources
+2024-05-02 10:16:14,549 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/main/resources
+2024-05-02 10:16:14,549 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaMappedSuperclass/src/test/java
+2024-05-02 10:16:14,550 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/test/resources
+2024-05-02 10:16:15,128 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaSingleTable/src/main/java
+2024-05-02 10:16:15,129 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/main/resources
+2024-05-02 10:16:15,132 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/main/resources
+2024-05-02 10:16:15,135 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaSingleTable/src/test/java
+2024-05-02 10:16:15,135 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/test/resources
+2024-05-02 10:16:15,612 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 7 sec
+2024-05-02 10:16:16,013 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-02 10:16:16,887 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaMappedSuperclass:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaMappedSuperclass\pom.xml.
+2024-05-02 10:16:17,431 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaSingleTable:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaSingleTable\pom.xml.
+2024-05-02 10:16:18,215 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaMappedSuperclass/src/main/java
+2024-05-02 10:16:18,216 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/main/resources
+2024-05-02 10:16:18,218 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/main/resources
+2024-05-02 10:16:18,219 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaMappedSuperclass/src/test/java
+2024-05-02 10:16:18,220 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaMappedSuperclass/src/test/resources
+2024-05-02 10:16:18,725 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaSingleTable/src/main/java
+2024-05-02 10:16:18,726 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/main/resources
+2024-05-02 10:16:18,727 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/main/resources
+2024-05-02 10:16:18,728 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HerenciaSingleTable/src/test/java
+2024-05-02 10:16:18,728 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HerenciaSingleTable/src/test/resources
+2024-05-02 10:16:19,389 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 2 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 1,00 sec 
+2024-05-02 10:16:31,379 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:16:31,403 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:16:31,409 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaMappedSuperclass\src\test\resources
+2024-05-02 10:16:32,087 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:16:32,103 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:16:32,108 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\HerenciaSingleTable\src\test\resources
+2024-05-02 10:16:32,706 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaJoined:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\pom.xml.
+2024-05-02 10:16:33,508 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:16:33,528 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:16:33,532 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
+2024-05-02 10:16:34,881 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:16:34,884 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:16:34,890 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
+2024-05-02 10:17:18,986 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaMappedSuperclass:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass\pom.xml.
+2024-05-02 10:17:19,874 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:17:19,888 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:17:19,892 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass\src\test\resources
+2024-05-02 10:17:21,792 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:17:21,794 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:17:21,798 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass\src\test\resources
+2024-05-02 10:17:29,185 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:HerenciaSingleTable:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaSingleTable\pom.xml.
+2024-05-02 10:17:30,035 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:17:30,046 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:17:30,050 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaSingleTable\src\test\resources
+2024-05-02 10:17:31,216 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:17:31,219 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:17:31,222 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaSingleTable\src\test\resources
+2024-05-02 10:20:38,472 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:ejemploluismi_herenciamappedsuperclass2:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\pom.xml.
+2024-05-02 10:20:39,391 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/java
+2024-05-02 10:20:39,392 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/resources
+2024-05-02 10:20:39,396 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/resources
+2024-05-02 10:20:39,400 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploLuismi_HerenciaMappedSuperclass2/src/test/java
+2024-05-02 10:20:39,401 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/test/resources
+2024-05-02 10:20:39,925 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-05-02 10:20:39,930 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-02 10:20:40,223 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.salesianostriana.dam:ejemploluismi_herenciamappedsuperclass2:0.0.1-SNAPSHOT @ C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\pom.xml.
+2024-05-02 10:20:40,867 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/java
+2024-05-02 10:20:40,868 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/resources
+2024-05-02 10:20:40,869 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/main/resources
+2024-05-02 10:20:40,869 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejemploLuismi_HerenciaMappedSuperclass2/src/test/java
+2024-05-02 10:20:40,870 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ejemploLuismi_HerenciaMappedSuperclass2/src/test/resources
+2024-05-02 10:20:41,408 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-05-02 10:20:42,068 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:20:42,085 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:20:42,089 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:21:02,663 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:21:02,667 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:21:02,670 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:21:31,438 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:21:31,441 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:21:31,456 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:21:40,820 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:21:40,825 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:21:40,828 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:21:43,017 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:21:43,023 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:21:43,027 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:09,517 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:09,553 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:09,556 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:13,226 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:13,229 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:13,232 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:21,226 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:21,228 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:21,234 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:28,993 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:28,996 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:28,999 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:36,281 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:36,284 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:36,287 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:45,046 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:45,072 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:45,083 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:22:59,357 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:22:59,364 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:22:59,369 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:23:02,567 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:23:02,569 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:23:02,572 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:23:05,679 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:23:05,683 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:23:05,686 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:23:19,313 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:23:19,316 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:23:19,319 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:23:23,070 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:23:23,073 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:23:23,077 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:23:33,112 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:23:33,115 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:23:33,118 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:24:02,888 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:24:02,892 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:24:02,894 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:24:20,441 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:24:20,446 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:24:20,448 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:24:23,620 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:24:23,623 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:24:23,626 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:24:40,637 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:24:40,642 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:24:40,644 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:25:22,574 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:25:22,579 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:25:22,584 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:25:24,685 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:25:24,688 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:25:24,691 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:25:48,996 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:25:48,998 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:25:49,001 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:25:57,377 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:25:57,382 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:25:57,385 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:26:25,617 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:26:25,620 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:26:25,623 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:26:26,679 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:26:26,682 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:26:26,685 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:27:46,448 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:27:46,452 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:27:46,455 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:28:06,558 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:28:06,562 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:28:06,565 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:46:45,757 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:46:45,772 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:46:45,775 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaMappedSuperclass2\src\test\resources
+2024-05-02 10:55:06,713 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-02 10:55:06,740 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:55:06,743 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
+2024-05-02 10:55:47,107 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:55:47,107 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-02 10:55:47,110 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gamero.rofra24_trian\Desktop\DAM\Programación\Spring\ejemploLuismi_HerenciaJoined\src\test\resources
