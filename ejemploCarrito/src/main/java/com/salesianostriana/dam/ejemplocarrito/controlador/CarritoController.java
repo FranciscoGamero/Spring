@@ -15,7 +15,6 @@ import com.salesianostriana.dam.ejemplocarrito.modelo.Usuario;
 import com.salesianostriana.dam.ejemplocarrito.servicio.CarritoService;
 import com.salesianostriana.dam.ejemplocarrito.servicio.ProductoService;
 
-import jakarta.websocket.server.PathParam;
 
 @Controller
 public class CarritoController {

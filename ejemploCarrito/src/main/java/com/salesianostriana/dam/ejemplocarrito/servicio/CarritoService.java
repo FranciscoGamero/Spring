@@ -20,14 +20,14 @@ public class CarritoService {
 	VentaService ventaServicio;
 
 	public Venta getCarrito(Usuario usuario) {
-		return ventaServicio.getVentaNoFinalizada(usuario).orElseGet(() -> new Venta());
+		return ventaServicio.getVentaNoFinalizada(usuario).orElseGet(() -> crearCarrito(usuario));
 	}
 
 	public void addProducto(Usuario usuario, Producto producto, int cantidad) {
 		Venta carrito = getCarrito(usuario);
 
 		if (!ventaServicio.hayProductoEnCarrito(usuario, producto)) {
-			carrito.addLineaVenta(LineaVenta.builder);
+			carrito.addLineaVenta(LineaVenta.builder());
 		} else {
 			Optional<LineaVenta> lv = buscarPorProducto(usuario, carrito);
 			if (lv.isPresent()) {
@@ -41,7 +41,6 @@ public class CarritoService {
 		Venta carrito = getCarrito(usuario);
 		Optional<LineaVenta> aEliminar = buscarPorProducto(usuario, producto);
 		if (aEliminar.isPresent()) {
-			carrito.removeLineaVenta(aEliminar);
 			ventaServicio.save(carrito);
 		}
 	}

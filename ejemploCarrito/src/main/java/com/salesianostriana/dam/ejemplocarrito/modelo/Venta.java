@@ -42,7 +42,7 @@ public class Venta {
 		this.lineasVenta.add(linea);
 	}
 	
-	public void removeLineaVenta(Optional<LineaVenta> aEliminar) {
+	public void removeLineaVenta(LineaVenta aEliminar) {
 		this.lineasVenta.remove(aEliminar);
 		aEliminar.setVenta(this);
 	}

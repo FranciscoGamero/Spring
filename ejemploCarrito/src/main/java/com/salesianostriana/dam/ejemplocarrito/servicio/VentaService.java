@@ -2,8 +2,11 @@ package com.salesianostriana.dam.ejemplocarrito.servicio;
 
 import java.util.Optional;
 
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 
+import com.salesianostriana.dam.ejemplocarrito.modelo.Producto;
 import com.salesianostriana.dam.ejemplocarrito.modelo.Usuario;
 import com.salesianostriana.dam.ejemplocarrito.modelo.Venta;
 import com.salesianostriana.dam.ejemplocarrito.repositorio.VentaRepository;
@@ -19,4 +22,8 @@ public class VentaService extends BaseServiceImpl<Venta, Long, VentaRepository>{
 		return this.repository.existVentaNoFinalizada(cliente);
 	}
 	
+	@Query("""
+			
+			""")
+	public boolean hayProductoEnCarrito(Usuario usuario, Producto producto);
 }

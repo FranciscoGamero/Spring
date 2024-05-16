@@ -10,6 +10,13 @@
 	<h1>¡Ainsss! ¡Qué calvario! Mira la clase ProductoController ¡Anda!</h1>
 	<h2>Observa con atención la anotación @RequestMapping("/admin/producto") 
 		y añade una barra después de producto</h2>
+		
+		<form action="#" th:action="@{direcciondelalista}" method="GET">
+			<input type="text" name="buscar" placeholder="buscar" th:value="${param.search}">
+			<button class="clasesquequieras" type="submit" value="Enviar">
+				icono
+			</button>
+		</form>
 </body>
 
 </html>
